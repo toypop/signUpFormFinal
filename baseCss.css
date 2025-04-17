@@ -16,6 +16,8 @@ h1{
     font-weight: 700;
     font-style: normal;
     color: white;
+    margin: 0;
+    line-height: 30px;
 }
 
 h6{
@@ -29,7 +31,9 @@ h6{
 }
 
 .wrapper{
-    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .blueStrip{
     display: flex;
