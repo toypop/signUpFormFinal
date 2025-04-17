@@ -17,7 +17,7 @@ h1{
     font-style: normal;
     color: white;
     margin: 0;
-    line-height: 30px;
+    line-height: 32px;
 }
 
 h6{
@@ -30,7 +30,12 @@ h6{
     margin-left: 0px;
 }
 
+.memo{
+    /* margin-left: 50px; */
+}
+
 .wrapper{
+    margin-top: 80px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -43,7 +48,7 @@ h6{
     font-family: "Poppins", sans-serif;
     font-style: normal;    
     color:white;
-    width: 600px;
+    width: 500px;
     height: 50px;
     border: 2px solid hsl(248, 38%, 49%);
     border-radius: 10px;
@@ -58,8 +63,9 @@ h6{
     font-size: 12px;
     font-family: "Poppins", sans-serif;
     font-style: normal;    
-    color:black;
-    width: 600px;
+    font-weight: 600;
+    color:rgb(117, 112, 112);
+    width: 500px;
     height: 50px;
     /* border: 2px solid hsl(248, 38%, 49%);
     border-radius: 10px; */
@@ -76,18 +82,27 @@ p.thin{
 }
 
 p.pedice{
-    /* display: inline-block; */
+    display: inline-block;    
     font-size: 10px;
     margin: 0;
 }
+
+p.pedice2{
+    display: inline-block;
+    font-size: 10px;
+    margin: 0;
+    padding-left: 5px;
+    color: hsl(0, 100%, 74%) ;
+}
+
 .whiteFrame{
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 50px;
-    width: 600px;
-    height: 500px;
+    margin-top: 20px;
+    width: 500px;
+    height: 400px;
     border-radius: 10px;
     box-shadow: 0px 8px hsl(359.5deg 52.66% 62.06%);
     background-color: white;
@@ -96,7 +111,7 @@ p.pedice{
 .insideWhiteFrame{
     display: flex;
     align-items: center;    
-    width: 530px;
+    width: 430px;
     border-radius: 5px;
     border: 1px solid rgb(179, 176, 176);
 }
@@ -106,7 +121,7 @@ p.pedice{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 530px;
+    width: 430px;
     height: 40px;
     border-radius: 5px;
     color:white;
@@ -116,7 +131,7 @@ p.pedice{
 
 button {
     border-width: 0px;
-    border-bottom-width: 5px;
+    border-bottom-width: 3px;
     border-color: hsl(154, 66%, 55%);
 }
 
@@ -127,7 +142,7 @@ input{
     font-style: normal;
     width: 530px;
     height: 40px;
-    padding-left: 50px;
+    padding-left: 35px;
     color: rgb(121, 117, 117);
 }
 
