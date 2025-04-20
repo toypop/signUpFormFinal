@@ -146,3 +146,15 @@ input{
     color: rgb(121, 117, 117);
 }
 
+.popup{
+    position:absolute;
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    background-color: white;
+    color: tomato;
+}
